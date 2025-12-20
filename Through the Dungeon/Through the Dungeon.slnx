@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="AstarPathfindingProjectEditor.csproj" />
+  <Project Path="AstarPathfindingProject.csproj" />
+  <Project Path="PackageToolsEditor.csproj" />
+</Solution>

@@ -19,7 +19,7 @@ namespace Combat.Abilities
             projectileSpeed = new AbilitiesDatabaseConn("RangedAttack").GETProjectileSpeed();
             projectileDamage = new AbilitiesDatabaseConn("RangedAttack").GETAbilityAttackDamage();
             projectileRange = new AbilitiesDatabaseConn("RangedAttack").GETAbilityAttackRange();
-            rb.velocity = transform.right * projectileSpeed;
+            rb.linearVelocity = transform.right * projectileSpeed;
         }
 
         public void FixedUpdate()

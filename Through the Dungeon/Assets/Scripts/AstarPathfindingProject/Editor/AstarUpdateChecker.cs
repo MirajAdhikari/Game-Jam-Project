@@ -281,7 +281,6 @@ namespace Pathfinding {
 				var remindVersion = new System.Version(EditorPrefs.GetString("AstarRemindUpdateVersion", "0.0.0.0"));
 				if (latestVersion == remindVersion && System.DateTime.TryParse(EditorPrefs.GetString("AstarRemindUpdateDate", "1/1/1971 00:00:01"), out remindDate)) {
 					if (System.DateTime.UtcNow < remindDate) {
-						// Don't remind yet
 						return;
 					}
 				} else {

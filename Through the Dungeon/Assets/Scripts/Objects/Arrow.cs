@@ -19,7 +19,7 @@ namespace Objects
             projectileSpeed = new TrapsDatabaseConn("Cannon").GETTrapProjectileSpeed();
             projectileDamage = new TrapsDatabaseConn("Cannon").GETTrapDamage();
             range = new TrapsDatabaseConn("Cannon").GETTrapRange();
-            rb.velocity = rb.velocity = transform.up * projectileSpeed;
+            rb.linearVelocity = rb.linearVelocity = transform.up * projectileSpeed;
             startingPosition = transform.position;
         }
 

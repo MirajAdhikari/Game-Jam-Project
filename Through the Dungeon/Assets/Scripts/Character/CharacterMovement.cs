@@ -47,7 +47,7 @@ namespace Character
 
         public void SetCharacterVelocity(Vector2 direction)
         {
-            rb.velocity = direction;
+            rb.linearVelocity = direction;
         }
 
         public void SetCharacterDirection(Direction direction)
